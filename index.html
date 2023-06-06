@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Suporte Sepedi</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./js/menu.js" defer></script>
 </head>
 
 <body>
@@ -215,31 +216,6 @@
         <button type="submit" class="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#016db5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#016db5]">ENVIAR</button>
       </div>
     </form>
-  <script> 
-
-    
-    const menu = document.querySelector('#menu')
-    const body = document.querySelector('body')
-
-
-
-    function toggleMenuOpen(){
-
-      const isOpen = menu.classList.contains('hidden');
-
-
-      if(isOpen){
-        body.classList.add('overflow-hidden')
-        menu.classList.remove('hidden')
-        return
-      }
-      body.classList.add('overflow-scroll')
-      menu.classList.add('hidden')
-
-    }
-
-
-  </script>
-
+ 
 </body>
 </html>
