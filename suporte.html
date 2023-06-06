@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/video_cards.js" type="module" defer ></script>
+    <script src="./js/menu.js" defer ></script>
+    <script src="https://unpkg.com/hrjs" defer ></script>
     <title>SUPORTE</title>
   </head>
 <!-------------------------------inicio home--------------------------------------------------------->
@@ -87,184 +90,21 @@
     <h2 class="text-4xl tracking-tight text-[#016db5] sm:text-5xl text-center mb-16 ">
       Acompanhe o tutorial de uso do software
     </h2>
+    <form class="w-2/3 mx-auto"  >   
+      
+      <div class="relative">
+          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          </div>
+          <input type="search" id="default-search" class=" text-[#016db5] block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500  dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Qual a sua duvida ?" required>
+      </div>
+  </form>
+    
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-5"
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6 sm:px-8 lg:px-16 justify-between"
+      id="video-cards"
     >
-      <div class="card w-full sm:w-72 rounded-lg">
-        <img
-          src="./imagem/Captura de tela 2023-05-25 101450.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body rounded-lg">
-          <h4 class="card-title font-bold text-[#016db5]">
-            Como acessar a plataforma
-          </h4>
-          <p class="card-text">
-            Acesse o tutorial e saiba como acessar a plataforma
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=_KaA8W_Hov8"
-            target="_blank"
-            class="block bg-blue-500 text-[#fff] font-bold rounded-lg py-2 px-4 mt-12 flex items-center justify-center hover:text-[#fff] hover:bg-[#016db5]"
-            >Assistir Video</a
-          >
-        </div>
-      </div>
-
-      <div class="card w-full sm:w-72 rounded-lg">
-        <img
-          src="./imagem/Captura de tela 2023-05-25 101450.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body rounded-lg">
-          <h4 class="card-title font-bold text-[#016db5]">
-            Como acessar a plataforma
-          </h4>
-          <p class="card-text">
-            Acesse o tutorial e saiba como acessar a plataforma
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=_KaA8W_Hov8"
-            target="_blank"
-            class="block bg-blue-500 text-[#fff] font-bold rounded-lg py-2 px-4 mt-12 flex items-center justify-center hover:text-[#fff] hover:bg-[#016db5]"
-            >Assistir Video</a
-          >
-        </div>
-      </div>
-
-      <div class="card w-full sm:w-72 rounded-lg">
-        <img
-          src="./imagem/Captura de tela 2023-05-25 101450.png"
-          class="card-img-top"
-          alt="imagem video"
-        />
-        <div class="card-body rounded-lg">
-          <h4 class="card-title font-bold text-[#016db5]">
-            Como acessar a plataforma
-          </h4>
-          <p class="card-text">
-            Acesse o tutorial e saiba como acessar a plataforma
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=_KaA8W_Hov8"
-            target="_blank"
-            class="block bg-blue-500 text-[#fff] font-bold rounded-lg py-2 px-4 mt-12 flex items-center justify-center hover:text-[#fff] hover:bg-[#016db5]"
-            >Assistir Video</a
-          >
-        </div>
-      </div>
-
-      <div class="card w-full sm:w-72 rounded-lg">
-        <img
-          src="./imagem/Captura de tela 2023-05-25 101450.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body rounded-lg">
-          <h4 class="card-title font-bold text-[#016db5]">
-            Como acessar a plataforma
-          </h4>
-          <p class="card-text">
-            Acesse o tutorial e saiba como acessar a plataforma
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=_KaA8W_Hov8"
-            target="_blank"
-            class="block bg-blue-500 text-[#fff] font-bold rounded-lg py-2 px-4 mt-12 flex items-center justify-center hover:text-[#fff] hover:bg-[#016db5]"
-            >Assistir Video</a
-          >
-        </div>
-      </div>
-      <!----------------------------------------2 linha----------------------------------------------------------------------->
-      <div class="card w-full sm:w-72 rounded-lg mt-12">
-        <img
-          src="./imagem/Captura de tela 2023-05-25 101450.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body rounded-lg">
-          <h4 class="card-title font-bold text-[#016db5]">
-            Como acessar a plataforma
-          </h4>
-          <p class="card-text">
-            Acesse o tutorial e saiba como acessar a plataforma
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=_KaA8W_Hov8"
-            target="_blank"
-            class="block bg-blue-500 text-[#fff] font-bold rounded-lg py-2 px-4 mt-12 flex items-center justify-center hover:text-[#fff] hover:bg-[#016db5]"
-            >Assistir Video</a
-          >
-        </div>
-      </div>
-
-      <div class="card w-full sm:w-72 rounded-lg mt-12">
-        <img
-          src="./imagem/Captura de tela 2023-05-25 101450.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body rounded-lg">
-          <h4 class="card-title font-bold text-[#016db5]">
-            Como acessar a plataforma
-          </h4>
-          <p class="card-text">
-            Acesse o tutorial e saiba como acessar a plataforma
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=_KaA8W_Hov8"
-            target="_blank"
-            class="block bg-blue-500 text-[#fff] font-bold rounded-lg py-2 px-4 mt-12 flex items-center justify-center hover:text-[#fff] hover:bg-[#016db5]"
-            >Assistir Video</a
-          >
-        </div>
-      </div>
-
-      <div class="card w-full sm:w-72 rounded-lg mt-12">
-        <img
-          src="./imagem/Captura de tela 2023-05-25 101450.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body rounded-lg">
-          <h4 class="card-title font-bold text-[#016db5]">
-            Como acessar a plataforma
-          </h4>
-          <p class="card-text">
-            Acesse o tutorial e saiba como acessar a plataforma
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=_KaA8W_Hov8"
-            target="_blank"
-            class="block bg-blue-500 text-[#fff] font-bold rounded-lg py-2 px-4 mt-12 flex items-center justify-center hover:text-[#fff] hover:bg-[#016db5]"
-            >Assistir Video</a
-          >
-        </div>
-      </div>
-
-      <div class="card w-full sm:w-72 rounded-lg mt-12">
-        <img
-          src="./imagem/Captura de tela 2023-05-25 101450.png"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body rounded-lg">
-          <h4 class="card-title font-bold text-[#016db5]">
-            Como acessar a plataforma
-          </h4>
-          <p class="card-text">
-            Acesse o tutorial e saiba como acessar a plataforma
-          </p>
-          <a
-            href="https://www.youtube.com/watch?v=_KaA8W_Hov8"
-            target="_blank"
-            class="block bg-blue-500 text-[#fff] font-bold rounded-lg py-2 px-4 mt-12 flex items-center justify-center hover:text-[#fff] hover:bg-[#016db5]"
-            >Assistir Video</a
-          >
-        </div>
-      </div>
+     
     </div>
 
     <!-----------------------------------------footer---------------------------------------------------------------------->
@@ -324,37 +164,6 @@
       <div class="mt-10">
         <button type="submit" class="block w-full rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#016db5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#016db5]">ENVIAR</button>
       </div>
-    </form>
-
-    <!-------------------------------JavaScript do menu hamburguer----------------------------------------------------->
-
-    <script> 
-
-    
-      const menu = document.querySelector('#menu')
-      const body = document.querySelector('body')
-  
-  
-  
-      function toggleMenuOpen(){
-  
-        const isOpen = menu.classList.contains('hidden');
-  
-  
-        if(isOpen){
-          body.classList.add('overflow-hidden')
-          menu.classList.remove('hidden')
-          return
-        }
-        body.classList.add('overflow-scroll')
-        menu.classList.add('hidden')
-  
-      }
-  
-  
-    </script>
-  
-  
-  
+    </form>  
   </body>
 </html>
