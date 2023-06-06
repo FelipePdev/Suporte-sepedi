@@ -17,6 +17,12 @@ const videos = [
     descricao: "Description 3",
     link: "https://www.youtube.com/embed/3",
   },
+  {
+    id: 4,
+    titulo: "Como alterar a senha",
+    descricao: "Description 4",
+    link: "https://www.youtube.com/embed/4",
+  },
 ];
 
 export { videos };
