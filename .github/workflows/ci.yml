@@ -1,4 +1,4 @@
-name:  Sepedi Api CI
+name:  Sepedi Page CI
 on:
   push: 
     branches:
