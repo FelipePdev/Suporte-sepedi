@@ -3,13 +3,13 @@ const videos = [
     id: 1,
     titulo: "Visão geral",
     descricao: "Conhecendo as funcionalidades do software",
-    link: "https://www.youtube.com/watch?v=HUppEV3A2Eg",
+    link: "https://vimeo.com/manage/videos/835197734",
   },
   {
     id: 2,
     titulo: "Como acessar o software",
     descricao: "aprendendo a realizar acesso ao software",
-    link: "https://youtu.be/7EtVOfnO2hw",
+    link: "https://vimeo.com/manage/videos/835238820",
   },
   {
     id: 3,
@@ -33,13 +33,13 @@ const videos = [
     id: 6,
     titulo: "Clientes do software",
     descricao: "Aprendendo sobre os clientes do software",
-    link: "https://youtu.be/i1QcF5f7lqg",
+    link: "https://vimeo.com/manage/videos/835293649",
   },
   {
     id: 7,
     titulo: "Colaboradores no software",
     descricao: "Aprendendo sobre cadastro de colaboradores no software",
-    link: "https://youtu.be/ouyqmNWlQc0",
+    link: "https://vimeo.com/manage/videos/835242258",
   },
   {
     id: 8,
