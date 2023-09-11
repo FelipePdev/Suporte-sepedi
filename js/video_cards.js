@@ -30,7 +30,7 @@ searchInput.addEventListener("keyup", (event) => {
 
 function generateVideoTemplate(video) {
   const template = `
-    <div class="card w-full sm:w-72 rounded-lg border solid [#000000] p-10">
+    <div class="card w-full sm:w-72 rounded-lg border solid [#000000] p-10 aspect-square">
     <div class="card-body rounded-lg">
       <h4 class="card-title font-bold text-[#016db5]">
         ${video.titulo}
